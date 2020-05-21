@@ -9,9 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^8.2.0",
     "gatsby": "^2.21.36",
-    "gatsby-theme-firebase": "^1.0.10",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
