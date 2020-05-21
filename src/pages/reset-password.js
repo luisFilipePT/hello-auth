@@ -18,7 +18,7 @@ const ResetPassword = () => {
   return (
     <Layout>
       <AuthForm
-        handleSubmit={handleSubmit()}
+        handleSubmit={handleSubmit}
         title="Reset Password"
         type="ResetPassword"
       />

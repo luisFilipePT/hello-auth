@@ -11,8 +11,8 @@ const Dashboard = () => {
   if (!isLoggedIn) {
     return (
       <Layout>
-        <h1>Dashboard</h1>
-        <h2>You need to be logged to see this page content</h2>
+        <h2>Dashboard</h2>
+        <h3>You need to be logged to see this page content</h3>
         <Link to="/">Sign In or Sign Up first</Link>
       </Layout>
     )
@@ -20,8 +20,8 @@ const Dashboard = () => {
 
   return (
     <Layout>
-      <h1>Dashboard</h1>
-      {profile && <h2>Hello {profile.displayName || profile.email}!</h2>}
+      <h2>Dashboard</h2>
+      {profile && <h3>Hello {profile.displayName || profile.email}!</h3>}
       {isLoggedIn && <button onClick={() => auth.signOut()}>Sign Out</button>}
     </Layout>
   )
