@@ -1,0 +1,40 @@
+@import 'https://newcss.net/new.min.css';
+
+html, body {
+  height: 100%;
+  font-size: 20px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+    text-align: center;
+}
+
+input {
+    width: 350px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    background-color: #eee;
+    font-size: 18px;
+    color: #222;
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    margin-top: 33%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
